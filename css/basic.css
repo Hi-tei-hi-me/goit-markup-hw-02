@@ -1,0 +1,24 @@
+:root {
+  --main-text: #757575;
+  --secondary-text: #212121;
+  --main-white: #ffffff;
+  --accent: #2196f3;
+  --dark-background: #2f303a;
+  --light-background: #f5f4fa;
+  --footer-bonus: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  color: var(--main-text);
+  background-color: var(--main-white);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

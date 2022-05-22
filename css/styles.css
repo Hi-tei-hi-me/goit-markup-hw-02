@@ -1,0 +1,153 @@
+/*-------------HEADER-------------*/
+.logo {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-accent {
+  color: var(--secondary-text);
+}
+.header-nav {
+  font-weight: 500;
+  color: var(--secondary-text);
+  letter-spacing: 0.02em;
+}
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--accent);
+}
+.current {
+  color: var(--accent);
+}
+.header-contact {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent);
+}
+
+/*-------------HERO-------------*/
+.hero {
+  background-color: var(--dark-background);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white);
+}
+.hero-btn {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-white);
+  background-color: var(--accent);
+}
+
+/*-------------ADVANTAGES-------------*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text);
+}
+
+/*-------------WHAT WE DO-------------*/
+.section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text);
+}
+
+/*-------------TEAM-------------*/
+.team {
+  background-color: var(--light-background);
+}
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text);
+}
+.member-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*-------------FOOTER-------------*/
+.footer {
+  background-color: var(--dark-background);
+}
+.footer .logo-accent {
+  color: var(--main-white);
+}
+.address {
+  font-style: normal;
+  color: var(--main-white);
+}
+.footer-contact {
+  font-style: normal;
+  color: var(--footer-bonus);
+}
+.address:hover,
+.address:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent);
+}
+
+/*-------------PROJECTS-------------*/
+.filter-btn {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.39;
+  text-align: center;
+  color: var(--secondary-text);
+  background-color: var(--light-background);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--main-white);
+  background-color: var(--accent);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
